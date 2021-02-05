@@ -1,4 +1,4 @@
-module github.com/tatumio/ltcd
+module github.com/ltcsuite/ltcd
 
 go 1.12
 
