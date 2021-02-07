@@ -20,7 +20,7 @@ import (
 	_ "github.com/tatumio/ltcd/database/ffldb"
 	"github.com/tatumio/ltcd/txscript"
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 const (

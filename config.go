@@ -30,7 +30,7 @@ import (
 	_ "github.com/tatumio/ltcd/database/ffldb"
 	"github.com/tatumio/ltcd/mempool"
 	"github.com/tatumio/ltcd/peer"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 const (

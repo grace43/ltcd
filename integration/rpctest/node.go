@@ -15,7 +15,7 @@ import (
 	"time"
 
 	rpc "github.com/tatumio/ltcd/rpcclient"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 // nodeConfig contains all the args, and data required to launch a ltcd process

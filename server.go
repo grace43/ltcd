@@ -36,8 +36,8 @@ import (
 	"github.com/tatumio/ltcd/peer"
 	"github.com/tatumio/ltcd/txscript"
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
-	"github.com/nvxtien/ltcutil/bloom"
+	"github.com/tatumio/ltcutil"
+	"github.com/tatumio/ltcutil/bloom"
 )
 
 const (

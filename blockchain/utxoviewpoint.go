@@ -11,7 +11,7 @@ import (
 	"github.com/tatumio/ltcd/database"
 	"github.com/tatumio/ltcd/txscript"
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 // txoFlags is a bitmask defining additional information and state for a

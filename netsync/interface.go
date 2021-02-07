@@ -11,7 +11,7 @@ import (
 	"github.com/tatumio/ltcd/mempool"
 	"github.com/tatumio/ltcd/peer"
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 // PeerNotifier exposes methods to notify peers of status changes to

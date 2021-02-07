@@ -17,8 +17,8 @@ import (
 	"github.com/tatumio/ltcd/rpcclient"
 	"github.com/tatumio/ltcd/txscript"
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
-	"github.com/nvxtien/ltcutil/hdkeychain"
+	"github.com/tatumio/ltcutil"
+	"github.com/tatumio/ltcutil/hdkeychain"
 )
 
 var (

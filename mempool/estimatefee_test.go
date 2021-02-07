@@ -12,7 +12,7 @@ import (
 	"github.com/tatumio/ltcd/chaincfg/chainhash"
 	"github.com/tatumio/ltcd/mining"
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 // newTestFeeEstimator creates a feeEstimator with some different parameters

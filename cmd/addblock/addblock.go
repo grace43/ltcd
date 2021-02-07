@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"runtime"
 
+	"github.com/btcsuite/btclog"
 	"github.com/tatumio/ltcd/blockchain"
 	"github.com/tatumio/ltcd/blockchain/indexers"
 	"github.com/tatumio/ltcd/database"
 	"github.com/tatumio/ltcd/limits"
-	"github.com/btcsuite/btclog"
 )
 
 const (

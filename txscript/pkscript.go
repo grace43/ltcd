@@ -8,7 +8,7 @@ import (
 	"github.com/tatumio/ltcd/btcec"
 	"github.com/tatumio/ltcd/chaincfg"
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 	"golang.org/x/crypto/ripemd160"
 )
 

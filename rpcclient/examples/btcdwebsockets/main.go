@@ -12,7 +12,7 @@ import (
 
 	"github.com/tatumio/ltcd/rpcclient"
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 func main() {

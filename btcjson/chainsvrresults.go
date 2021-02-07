@@ -10,7 +10,7 @@ import (
 	"encoding/json"
 
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 // GetBlockHeaderVerboseResult models the data from the getblockheader command when

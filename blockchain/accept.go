@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	"github.com/tatumio/ltcd/database"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 // maybeAcceptBlock potentially accepts a block into the block chain and, if

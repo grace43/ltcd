@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tatumio/ltcd/database/internal/treap"
 	"github.com/btcsuite/goleveldb/leveldb"
 	"github.com/btcsuite/goleveldb/leveldb/iterator"
 	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/tatumio/ltcd/database/internal/treap"
 )
 
 const (

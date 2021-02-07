@@ -13,7 +13,7 @@ import (
 
 	"github.com/tatumio/ltcd/blockchain"
 	"github.com/tatumio/ltcd/database"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 var (

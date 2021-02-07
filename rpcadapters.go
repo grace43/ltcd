@@ -13,7 +13,7 @@ import (
 	"github.com/tatumio/ltcd/netsync"
 	"github.com/tatumio/ltcd/peer"
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 // rpcPeer provides a peer for use with the RPC server and implements the

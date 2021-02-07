@@ -21,7 +21,7 @@ import (
 	"github.com/tatumio/ltcd/integration/rpctest"
 	"github.com/tatumio/ltcd/txscript"
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 const (

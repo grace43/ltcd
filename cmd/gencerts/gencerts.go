@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nvxtien/ltcutil"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/tatumio/ltcutil"
 )
 
 type config struct {

@@ -9,7 +9,7 @@ package database
 
 import (
 	"github.com/tatumio/ltcd/chaincfg/chainhash"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 // Cursor represents a cursor over key/value pairs and nested buckets of a

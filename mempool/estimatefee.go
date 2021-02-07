@@ -18,7 +18,7 @@ import (
 
 	"github.com/tatumio/ltcd/chaincfg/chainhash"
 	"github.com/tatumio/ltcd/mining"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 // TODO incorporate Alex Morcos' modifications to Gavin's initial model

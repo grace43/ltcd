@@ -14,11 +14,6 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/tatumio/ltcd/chaincfg/chainhash"
-	"github.com/tatumio/ltcd/database"
-	"github.com/tatumio/ltcd/database/internal/treap"
-	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
 	"github.com/btcsuite/goleveldb/leveldb"
 	"github.com/btcsuite/goleveldb/leveldb/comparer"
 	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
@@ -26,6 +21,11 @@ import (
 	"github.com/btcsuite/goleveldb/leveldb/iterator"
 	"github.com/btcsuite/goleveldb/leveldb/opt"
 	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/tatumio/ltcd/chaincfg/chainhash"
+	"github.com/tatumio/ltcd/database"
+	"github.com/tatumio/ltcd/database/internal/treap"
+	"github.com/tatumio/ltcd/wire"
+	"github.com/tatumio/ltcutil"
 )
 
 const (

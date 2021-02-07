@@ -41,7 +41,7 @@ import (
 	"github.com/tatumio/ltcd/peer"
 	"github.com/tatumio/ltcd/txscript"
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 // API version constants

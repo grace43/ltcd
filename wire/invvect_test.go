@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tatumio/ltcd/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/tatumio/ltcd/chaincfg/chainhash"
 )
 
 // TestInvVectStringer tests the stringized output for inventory vector types.

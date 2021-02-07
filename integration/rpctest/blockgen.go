@@ -16,7 +16,7 @@ import (
 	"github.com/tatumio/ltcd/chaincfg/chainhash"
 	"github.com/tatumio/ltcd/txscript"
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 // solveBlock attempts to find a nonce which makes the passed block header hash

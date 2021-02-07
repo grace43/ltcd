@@ -14,7 +14,7 @@ import (
 	"github.com/tatumio/ltcd/database"
 	_ "github.com/tatumio/ltcd/database/ffldb"
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 // This example demonstrates creating a new database.

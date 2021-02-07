@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tatumio/ltcd/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/tatumio/ltcd/chaincfg/chainhash"
 )
 
 // TestTx tests the MsgTx API.

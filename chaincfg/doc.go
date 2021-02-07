@@ -25,7 +25,7 @@
 //          "fmt"
 //          "log"
 //
-//          "github.com/nvxtien/ltcutil"
+//          "github.com/tatumio/ltcutil"
 //          "github.com/tatumio/ltcd/chaincfg"
 //  )
 //

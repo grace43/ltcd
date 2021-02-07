@@ -16,7 +16,7 @@ import (
 	flags "github.com/jessevdk/go-flags"
 	"github.com/tatumio/ltcd/btcjson"
 	"github.com/tatumio/ltcd/chaincfg"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 const (

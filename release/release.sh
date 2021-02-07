@@ -10,12 +10,12 @@
 set -e
 
 # If no tag specified, use date + version otherwise use tag.
-if [[ $1x = x ]]; then
-    DATE=`date +%Y%m%d`
-    VERSION="01"
-    TAG=$DATE-$VERSION
+if [[ $1x == x ]]; then
+  DATE=$(date +%Y%m%d)
+  VERSION="01"
+  TAG=$DATE-$VERSION
 else
-    TAG=$1
+  TAG=$1
 fi
 
 go mod vendor
@@ -31,7 +31,7 @@ rm -r vendor
 
 PACKAGESRC="$MAINDIR/$PACKAGE-source-$TAG.tar"
 git archive -o $PACKAGESRC HEAD
-gzip -f $PACKAGESRC > "$PACKAGESRC.gz"
+gzip -f $PACKAGESRC >"$PACKAGESRC.gz"
 
 cd $MAINDIR
 
@@ -76,33 +76,33 @@ PKG="github.com/btcsuite/btcd"
 COMMIT=$(git describe --abbrev=40 --dirty)
 
 for i in $SYS; do
-    OS=$(echo $i | cut -f1 -d-)
-    ARCH=$(echo $i | cut -f2 -d-)
-    ARM=
+  OS=$(echo $i | cut -f1 -d-)
+  ARCH=$(echo $i | cut -f2 -d-)
+  ARM=
 
-    if [[ $ARCH = "armv6" ]]; then
-      ARCH=arm
-      ARM=6
-    elif [[ $ARCH = "armv7" ]]; then
-      ARCH=arm
-      ARM=7
-    fi
+  if [[ $ARCH == "armv6" ]]; then
+    ARCH=arm
+    ARM=6
+  elif [[ $ARCH == "armv7" ]]; then
+    ARCH=arm
+    ARM=7
+  fi
 
-    mkdir $PACKAGE-$i-$TAG
-    cd $PACKAGE-$i-$TAG
+  mkdir $PACKAGE-$i-$TAG
+  cd $PACKAGE-$i-$TAG
 
-    echo "Building:" $OS $ARCH $ARM
-    env CGO_ENABLED=0 GOOS=$OS GOARCH=$ARCH GOARM=$ARM go build -v -trimpath -ldflags="-s -w -buildid=" github.com/btcsuite/btcd
-    env CGO_ENABLED=0 GOOS=$OS GOARCH=$ARCH GOARM=$ARM go build -v -trimpath -ldflags="-s -w -buildid=" github.com/btcsuite/btcd/cmd/btcctl
-    cd ..
+  echo "Building:" $OS $ARCH $ARM
+  env CGO_ENABLED=0 GOOS=$OS GOARCH=$ARCH GOARM=$ARM go build -v -trimpath -ldflags="-s -w -buildid=" github.com/btcsuite/btcd
+  env CGO_ENABLED=0 GOOS=$OS GOARCH=$ARCH GOARM=$ARM go build -v -trimpath -ldflags="-s -w -buildid=" github.com/btcsuite/btcd/cmd/btcctl
+  cd ..
 
-    if [[ $OS = "windows" ]]; then
-	zip -r $PACKAGE-$i-$TAG.zip $PACKAGE-$i-$TAG
-    else
-	tar -cvzf $PACKAGE-$i-$TAG.tar.gz $PACKAGE-$i-$TAG
-    fi
+  if [[ $OS == "windows" ]]; then
+    zip -r $PACKAGE-$i-$TAG.zip $PACKAGE-$i-$TAG
+  else
+    tar -cvzf $PACKAGE-$i-$TAG.tar.gz $PACKAGE-$i-$TAG
+  fi
 
-    rm -r $PACKAGE-$i-$TAG
+  rm -r $PACKAGE-$i-$TAG
 done
 
-shasum -a 256 * > manifest-$TAG.txt
+shasum -a 256 * >manifest-$TAG.txt

@@ -11,7 +11,7 @@ import (
 
 	"github.com/tatumio/ltcd/btcjson"
 	"github.com/tatumio/ltcd/chaincfg/chainhash"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 // FutureGenerateResult is a future promise to deliver the result of a

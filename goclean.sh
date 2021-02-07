@@ -12,7 +12,7 @@ go test -tags="rpctest" ./...
 
 # Automatic checks
 golangci-lint run --deadline=10m --disable-all \
---enable=gofmt \
---enable=vet \
---enable=gosimple \
---enable=unconvert
+  --enable=gofmt \
+  --enable=vet \
+  --enable=gosimple \
+  --enable=unconvert

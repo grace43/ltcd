@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 // BenchmarkIsCoinBase performs a simple benchmark against the IsCoinBase

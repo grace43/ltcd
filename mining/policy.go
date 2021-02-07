@@ -7,7 +7,7 @@ package mining
 import (
 	"github.com/tatumio/ltcd/blockchain"
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 const (

@@ -15,7 +15,7 @@ import (
 	"github.com/tatumio/ltcd/chaincfg"
 	"github.com/tatumio/ltcd/database"
 	"github.com/tatumio/ltcd/database/ffldb"
-	"github.com/nvxtien/ltcutil"
+	"github.com/tatumio/ltcutil"
 )
 
 // dbType is the database type name for this driver.

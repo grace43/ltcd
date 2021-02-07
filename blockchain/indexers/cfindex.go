@@ -12,9 +12,9 @@ import (
 	"github.com/tatumio/ltcd/chaincfg/chainhash"
 	"github.com/tatumio/ltcd/database"
 	"github.com/tatumio/ltcd/wire"
-	"github.com/nvxtien/ltcutil"
-	"github.com/nvxtien/ltcutil/gcs"
-	"github.com/nvxtien/ltcutil/gcs/builder"
+	"github.com/tatumio/ltcutil"
+	"github.com/tatumio/ltcutil/gcs"
+	"github.com/tatumio/ltcutil/gcs/builder"
 )
 
 const (
