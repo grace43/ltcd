@@ -475,7 +475,7 @@ var TestNet4Params = Params{
 
 	// BIP32 hierarchical deterministic extended key magics
 	HDPrivateKeyID: [4]byte{0x04, 0x35, 0x83, 0x94}, // starts with tprv
-	HDPublicKeyID:  [4]byte{0x04, 0x35, 0x87, 0xcf}, // starts with tpub
+	HDPublicKeyID:  [4]byte{0x04, 0x04, 0x87, 0xcf}, // starts with tpub
 
 	// BIP44 coin type used in the hierarchical deterministic path for
 	// address generation.
