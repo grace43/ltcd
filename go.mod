@@ -12,6 +12,6 @@ require (
 	github.com/decred/dcrd/lru v1.0.0
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/jrick/logrotate v1.0.0
-	github.com/nvxtien/ltcutil v1.0.7-beta
+	github.com/tatumio/ltcutil v1.0.10-beta
 	golang.org/x/crypto v0.0.0-20200510223506-06a226fb4e37
 )
