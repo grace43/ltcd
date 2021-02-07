@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
+	"github.com/tatumio/ltcd/chaincfg"
 )
 
 // TestNotifications ensures that notification callbacks are fired on events.

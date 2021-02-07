@@ -11,12 +11,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ltcsuite/ltcd/blockchain"
-	"github.com/ltcsuite/ltcd/blockchain/indexers"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/database"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcutil"
+	"github.com/tatumio/ltcd/blockchain"
+	"github.com/tatumio/ltcd/blockchain/indexers"
+	"github.com/tatumio/ltcd/chaincfg/chainhash"
+	"github.com/tatumio/ltcd/database"
+	"github.com/tatumio/ltcd/wire"
+	"github.com/nvxtien/ltcutil"
 )
 
 var zeroHash = chainhash.Hash{}

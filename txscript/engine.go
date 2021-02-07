@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ltcsuite/ltcd/btcec"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/tatumio/ltcd/btcec"
+	"github.com/tatumio/ltcd/wire"
 )
 
 // ScriptFlags is a bitmask defining additional operations or tests that will be

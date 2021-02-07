@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/database"
-	_ "github.com/ltcsuite/ltcd/database/ffldb"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcutil"
+	"github.com/tatumio/ltcd/chaincfg"
+	"github.com/tatumio/ltcd/database"
+	_ "github.com/tatumio/ltcd/database/ffldb"
+	"github.com/tatumio/ltcd/wire"
+	"github.com/nvxtien/ltcutil"
 )
 
 var (

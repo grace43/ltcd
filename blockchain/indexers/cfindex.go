@@ -7,14 +7,14 @@ package indexers
 import (
 	"errors"
 
-	"github.com/ltcsuite/ltcd/blockchain"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/database"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcutil"
-	"github.com/ltcsuite/ltcutil/gcs"
-	"github.com/ltcsuite/ltcutil/gcs/builder"
+	"github.com/tatumio/ltcd/blockchain"
+	"github.com/tatumio/ltcd/chaincfg"
+	"github.com/tatumio/ltcd/chaincfg/chainhash"
+	"github.com/tatumio/ltcd/database"
+	"github.com/tatumio/ltcd/wire"
+	"github.com/nvxtien/ltcutil"
+	"github.com/nvxtien/ltcutil/gcs"
+	"github.com/nvxtien/ltcutil/gcs/builder"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/tatumio/ltcd/wire"
 )
 
 // randAddr generates a *wire.NetAddress backed by a random IPv4/IPv6 address.

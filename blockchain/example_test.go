@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ltcsuite/ltcd/blockchain"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/database"
-	_ "github.com/ltcsuite/ltcd/database/ffldb"
-	"github.com/ltcsuite/ltcutil"
+	"github.com/tatumio/ltcd/blockchain"
+	"github.com/tatumio/ltcd/chaincfg"
+	"github.com/tatumio/ltcd/database"
+	_ "github.com/tatumio/ltcd/database/ffldb"
+	"github.com/nvxtien/ltcutil"
 )
 
 // This example demonstrates how to create a new chain instance and use

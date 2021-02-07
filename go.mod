@@ -1,4 +1,4 @@
-module github.com/ltcsuite/ltcd
+module github.com/tattumio/ltcd
 
 go 1.12
 
@@ -12,6 +12,6 @@ require (
 	github.com/decred/dcrd/lru v1.0.0
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/jrick/logrotate v1.0.0
-	github.com/ltcsuite/ltcutil v1.0.2-beta
+	github.com/nvxtien/ltcutil v1.0.2-beta
 	golang.org/x/crypto v0.0.0-20200510223506-06a226fb4e37
 )

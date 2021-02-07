@@ -16,9 +16,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/mining"
-	"github.com/ltcsuite/ltcutil"
+	"github.com/tatumio/ltcd/chaincfg/chainhash"
+	"github.com/tatumio/ltcd/mining"
+	"github.com/nvxtien/ltcutil"
 )
 
 // TODO incorporate Alex Morcos' modifications to Gavin's initial model

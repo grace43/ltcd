@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/ltcsuite/ltcd/blockchain"
-	"github.com/ltcsuite/ltcd/blockchain/indexers"
-	"github.com/ltcsuite/ltcd/database"
-	"github.com/ltcsuite/ltcd/limits"
+	"github.com/tatumio/ltcd/blockchain"
+	"github.com/tatumio/ltcd/blockchain/indexers"
+	"github.com/tatumio/ltcd/database"
+	"github.com/tatumio/ltcd/limits"
 	"github.com/btcsuite/btclog"
 )
 

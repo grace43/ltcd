@@ -9,9 +9,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ltcsuite/ltcd/btcjson"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcutil"
+	"github.com/tatumio/ltcd/btcjson"
+	"github.com/tatumio/ltcd/chaincfg/chainhash"
+	"github.com/nvxtien/ltcutil"
 )
 
 // FutureGenerateResult is a future promise to deliver the result of a

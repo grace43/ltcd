@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ltcsuite/ltcd/database"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/tatumio/ltcd/database"
+	"github.com/tatumio/ltcd/wire"
 )
 
 // TestErrNotInMainChain ensures the functions related to errNotInMainChain work

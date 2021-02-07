@@ -15,9 +15,9 @@ import (
 	"runtime/debug"
 	"runtime/pprof"
 
-	"github.com/ltcsuite/ltcd/blockchain/indexers"
-	"github.com/ltcsuite/ltcd/database"
-	"github.com/ltcsuite/ltcd/limits"
+	"github.com/tatumio/ltcd/blockchain/indexers"
+	"github.com/tatumio/ltcd/database"
+	"github.com/tatumio/ltcd/limits"
 )
 
 const (
