@@ -1,4 +1,5 @@
-# ltcd
+# DEPRECATED: ltcd
+This repository has been deprecated because of it being a forked lib.
 
 [![Build Status](https://github.com/btcsuite/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/ltcsuite/ltcd/actions)
 [![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
